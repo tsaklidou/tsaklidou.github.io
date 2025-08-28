@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<div class="section" id="about">
+    <div class="content">
+        {{ .Content }}
+    </div>
+</div>
+
+{{ partial "skills.html" . }}
+
+<div class="section" id="projects">
+    <h2>Projects</h2>
+    {{ range .Site.Data.projects.projects }}
+    {{ if .featured }}
+    <div class="project">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+        <p><strong>Technologies:</strong> {{ .technologies }}</p>
+        <a href="{{ .url }}" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+    </div>
+    {{ end }}
+    {{ end }}
+</div>
+
+{{ end }}

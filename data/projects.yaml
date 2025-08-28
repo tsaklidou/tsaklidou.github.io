@@ -1,0 +1,6 @@
+projects:
+  - title: "LangGraph Assistant"
+    description: "AI-powered chat application with RAG (Retrieval-Augmented Generation) capabilities, featuring knowledge base search and web search fallback."
+    technologies: "Python, LangGraph, Sentence Transformers, SQLite"
+    url: "https://github.com/tsaklidou/langgraph-assistant"
+    featured: true

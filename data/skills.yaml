@@ -1,0 +1,38 @@
+categories:
+  - name: "Languages and Frameworks for ML"
+    skills:
+      - name: "Python"
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      - name: "PyTorch"
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+      - name: "TensorFlow"
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+
+
+  - name: "Cloud & DevOps"
+    skills:
+      - name: "Azure"
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+      - name: "GCP"
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+      - name: "Docker"
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+
+  - name: "Version Control"
+    skills:
+      - name: "GitHub"
+        icon: "https://img.icons8.com/material-outlined/24/ffffff/github.png"
+      - name: "Git"
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+
+
+  - name: "GenAI & LLMs"
+    skills:
+      - name: "OpenAI"
+        icon: "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      - name: "LangChain"
+        icon: "https://img.icons8.com/fluency/48/000000/link.png"
+      - name: "LangGraph"
+        icon: "https://avatars.githubusercontent.com/u/126733545?s=200&v=4"
+      - name: "Hugging Face"
+        icon: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
